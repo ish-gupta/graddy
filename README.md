@@ -57,12 +57,8 @@ plt.show()
 ## Arguments for seg_gradcam class
 The seg_gradcam class takes the following arguments:
 
-**model_path**: the path to the saved Keras model file.
-
-**target_size (optional)**: the size to which images should be resized (height, width.Default is (512, 512).
-
-**preprocess_input (optional)**: a function that will be applied to the image before passing it to the model. Default is None.
-
-**colormap (optional)**: the colormap to use for the heatmap. Default is "jet".
-
-**alpha (optional)**: the transparency of the heatmap. Should be between 0 and 1. Default is 0.5.
+- **model_path**: the path to the saved Keras model file.
+- **target_size (optional)**: the size to which images should be resized (height, width.Default is (512, 512).
+- **preprocess_input (optional)**: a function that will be applied to the image before passing it to the model. Default is None.
+- **colormap (optional)**: the colormap to use for the heatmap. Default is "jet".
+- **alpha (optional)**: the transparency of the heatmap. Should be between 0 and 1. Default is 0.5.
