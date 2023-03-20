@@ -24,13 +24,13 @@ from Grad_CAM.graddy import seg_gradcam
 ## Load your model
 
 ```
-model_path = "tests/model.h5"
+model_path = "model_path.h5"
 gradcam = seg_gradcam(model_path)
 ```
 ## Load an example image
 
 ```
-image_path = "tests/236_good.jpeg"
+image_path = "example_image_path.jpeg"
 image = Image.open(image_path)
 ```
 
@@ -52,9 +52,13 @@ plt.show()
 The seg_gradcam class takes the following arguments:
 
 **model_path**: the path to the saved Keras model file.
+
 **target_size (optional)**: the size to which images should be resized (height, width.Default is (512, 512).
+
 **preprocess_input (optional)**: a function that will be applied to the image before passing it to the model. Default is None.
+
 **colormap (optional)**: the colormap to use for the heatmap. Default is "jet".
+
 **alpha (optional)**: the transparency of the heatmap. Should be between 0 and 1. Default is 0.5.
 
 
