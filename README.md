@@ -1,4 +1,4 @@
-# Grad_CAM: A Gradient-weighted Class Activation Mapping package
+# Grad_CAM: A Gradient-weighted Class Activation Mapping Package
 
 This package provides a simple implementation of Grad-CAM (Gradient-weighted Class Activation Mapping) for visualizing and interpreting the predictions of convolutional neural networks. Grad-CAM is a technique for generating heatmaps that indicate which regions of an input image are most important for the model's prediction. This can be helpful for understanding what features the model is using to make its decision.
 
@@ -63,6 +63,9 @@ The seg_gradcam class takes the following arguments:
 
 
 ## Requirements
+
 tensorflow
+
 numpy
+
 matplotlib
