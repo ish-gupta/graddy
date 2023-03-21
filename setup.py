@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="Grad_CAM",                     # This is the name of the package
     version="0.0.1",                        # The initial release version
-    author="Yash Shah",                     # Full name of the author
+    author="Quadeer Shaikh | Yash Shah | Ishita Gupta",         # Full name of the author
     author_email='yash161101@gmail.com', # Author Email ID
     description="A tool for generating class activation maps in deep learning models.", # Short Description of the module
     long_description=long_description,      # Long description read from the the readme file
