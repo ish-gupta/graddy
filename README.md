@@ -6,7 +6,7 @@ When it comes to using Grad-CAM for segmentation, the main difference is that in
 
 The modified implementation typically involves computing the gradient of the output segmentation mask with respect to the final convolutional layer, then using these gradients to weight the activation maps of this layer to generate a heatmap. The heatmap can then be overlaid on the input image to highlight the regions of the image that are most important for the segmentation.
 
-## Who's your graddy? 😉
+## Who's your graddy? 🌚
 
 This package provides a simple implementation of Grad-CAM (Gradient-weighted Class Activation Mapping) for visualizing and interpreting the predictions of convolutional neural networks. Grad-CAM is a technique for generating heatmaps that indicate which regions of an input image are most important for the model's prediction. This can be helpful for understanding what features the model is using to make its decision.
 
