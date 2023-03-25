@@ -1,4 +1,6 @@
-# Grad_CAM: A Gradient-weighted Class Activation Mapping Package
+# graddy: A Gradient-weighted Class Activation Mapping Package
+
+## Who's your graddy? 😉
 
 This package provides a simple implementation of Grad-CAM (Gradient-weighted Class Activation Mapping) for visualizing and interpreting the predictions of convolutional neural networks. Grad-CAM is a technique for generating heatmaps that indicate which regions of an input image are most important for the model's prediction. This can be helpful for understanding what features the model is using to make its decision.
 
@@ -15,7 +17,7 @@ Refer test_gradcam.py to use the package.
 You can install this package via pip:
 
 ```
-pip install Grad_CAM
+pip install graddy
 ```
 
 #### gradcam Class
@@ -24,7 +26,7 @@ The gradcam class in the package can be used to generate Grad-CAM heatmaps for a
 ```
 import numpy as np
 import matplotlib.pyplot as plt
-from Grad_CAM.graddy import seg_gradcam
+from graddy import seg_gradcam
 ```
 
 ## Load your model
