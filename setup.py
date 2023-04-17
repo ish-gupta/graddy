@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Grad_CAM",                     # This is the name of the package
+    name="graddy",                     # This is the name of the package
     version="0.0.1",                        # The initial release version
     author="Quadeer Shaikh | Yash Shah | Ishita Gupta",         # Full name of the author
     author_email='yash161101@gmail.com', # Author Email ID
